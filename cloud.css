@@ -1,0 +1,49 @@
+.cloud {
+  position: absolute;
+  top: 10px;
+}
+.circle-1 {
+  position: absolute;
+  top: 26px;
+  left: 170px;
+  width: 42px;
+  height: 50px;
+  background: #d9dad8;
+  border-radius: 72px/50px;
+}
+.circle-2 {
+  position: absolute;
+  top: 9px;
+  left: 159px;
+  width: 68px;
+  height: 54px;
+  background: #d9dad8;
+  border-radius: 59px/46px;
+}
+.circle-3 {
+  position: absolute;
+  top: 24px;
+  left: 174px;
+  width: 68px;
+  height: 43px;
+  background: #d9dad8;
+  border-radius: 59px/46px;
+}
+.circle-4 {
+  position: absolute;
+  top: 18px;
+  left: 115px;
+  width: 81px;
+  height: 49px;
+  background: #d9dad8;
+  border-radius: 90px/51px;
+}
+.circle-5 {
+  position: absolute;
+  top: 21px;
+  left: 203px;
+  width: 71px;
+  height: 38px;
+  background: #d9dad8;
+  border-radius: 90px/51px;
+}

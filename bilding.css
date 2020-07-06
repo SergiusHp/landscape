@@ -1,0 +1,65 @@
+.roof {
+  position: absolute;
+  top: -37px;
+  left: -8px;
+  border-left: 32px solid transparent;
+  border-right: 38px solid transparent;
+  border-bottom: 37px solid rgb(172, 33, 33);
+  width: 11px;
+  z-index: 3;
+}
+.roof-2 {
+  position: absolute;
+  top: -37px;
+  left: 6px;
+  border-left: 29px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 37px solid rgb(155, 30, 30);
+  width: 38px;
+  z-index: 2;
+}
+.home {
+  position: absolute;
+  top: 305px;
+  left: 240px;
+}
+.wall {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  background-color: brown;
+  border-bottom: 5px solid #581c1c;
+  z-index: 2;
+}
+.wall-2 {
+  position: absolute;
+  width: 64px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(180, 48, 48);
+  z-index: 3;
+}
+
+.window {
+  position: absolute;
+  top: 12px;
+  left: 40px;
+  border: 1px solid rgb(2, 0, 0);
+  width: 15px;
+  height: 25px;
+  background-color: lightgrey;
+  z-index: 4;
+}
+.door {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  border: 1px solid rgb(2, 0, 0);
+  width: 16px;
+  height: 35px;
+  background-color: rgb(59, 59, 58);
+  z-index: 4;
+}

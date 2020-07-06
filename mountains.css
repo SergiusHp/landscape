@@ -1,0 +1,49 @@
+.mountain {
+  width: 0;
+  height: 6px;
+  position: absolute;
+}
+
+.mountain-0 {
+  top: 126px;
+  left: -89px;
+  border-left: 149px solid transparent;
+  border-right: 196px solid transparent;
+  border-bottom: 168px solid grey;
+}
+.mountain1 {
+  top: 126px;
+  left: 194px;
+  border-left: 184px solid transparent;
+  border-right: 190px solid transparent;
+  border-bottom: 168px solid grey;
+}
+.mountain2 {
+  top: 126px;
+  left: 449px;
+  border-left: 206px solid transparent;
+  border-right: 190px solid transparent;
+  border-bottom: 168px solid grey;
+}
+.mountain-bacground1 {
+  top: 145px;
+  left: 310px;
+  border-left: 206px solid transparent;
+  border-right: 290px solid transparent;
+  border-bottom: 149px solid rgb(3, 0, 0);
+}
+.mountain-bacground2 {
+  top: 145px;
+  left: -7px;
+  border-left: 194px solid transparent;
+  border-right: 250px solid transparent;
+  border-bottom: 149px solid rgb(3, 0, 0);
+}
+.mountains-front {
+  z-index: 2;
+  position: absolute;
+}
+.mountains-back {
+  z-index: 0;
+  position: absolute;
+}

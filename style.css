@@ -1,0 +1,74 @@
+h1 {
+  color: lightblue;
+  right: 30%;
+  text-align: center;
+}
+.background {
+  position: relative;
+  background: content-box
+    repeating-linear-gradient(rgb(4, 88, 167), rgb(12, 118, 240));
+  height: 500px;
+  width: 700px;
+  left: 17%;
+  overflow: hidden;
+  border: 10px solid black;
+}
+.birds {
+  position: absolute;
+  top: 77px;
+  right: 196px;
+  background: no-repeat url(images/birds.png);
+  width: 241px;
+  height: 501px;
+  background-size: contain;
+  z-index: 3;
+}
+.sun {
+  position: absolute;
+  top: 54px;
+  right: 174px;
+  width: 50px;
+  height: 50px;
+  background: #f4ff59;
+  border-radius: 46px/50px;
+  border: 4px solid rgb(250, 186, 66);
+}
+
+.ground {
+  background-color: limegreen;
+  height: 200px;
+  width: 700px;
+  top: 300px;
+  position: absolute;
+}
+
+.river {
+  position: absolute;
+  top: 0px;
+  right: -29px;
+  background: no-repeat url(images/2.png);
+  width: 439px;
+  height: 463px;
+  background-size: contain;
+}
+
+.tree {
+  position: absolute;
+  top: 258px;
+  left: 108px;
+  width: 60px;
+  height: 72px;
+  background: #03501a;
+  border-radius: 46px/50px;
+  z-index: 4;
+}
+.tree-2 {
+  position: absolute;
+  top: 64%;
+  left: 133px;
+  border: 1px solid rgb(2, 0, 0);
+  width: 10px;
+  height: 35px;
+  background-color: rgb(104, 68, 1);
+  z-index: 1;
+}
